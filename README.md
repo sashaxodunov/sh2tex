@@ -1,18 +1,17 @@
 # sh2tex
-Silent Hill 2 Textures Explorer - is the tool that was born from my reverse-engineering of Silent Hill 2 resource formats.
-I became very handy to not only as a playground for me to make sure I can read any texture format of the game, but also proved useful for modding and preservation.
+Silent Hill 2 Textures Explorer - это инструмент, родившийся в результате моего реверс-инжиниринга форматов ресурсов Silent Hill 2. Я был очень рад не только тому, что он стал для меня игровой площадкой, позволяющей убедиться, что я могу читать и создавать текстуры в формате игры, но и предоставлял полезную информацию для изменения и сохранения.
 
-It can load these types of resources:
+Он может открывать следующие ресурсы:
 
-- *.tex and *.tbn2 - standalone textures files (tbn2 can contain more than 1 texture)
-- *.mdl - models from the game, usually contain more than 1 texture
-- *.map - levels from the game, usually contain more than 1 texture
+- *.tex и *.tbn2 - автономные файлы текстур (tbn2 может содержать более 1 текстуры)
+- *.mdl - модели из игры, как правило, содержат более 1 текстуры
+- *.map - уровни из игры, как правило, содержат более 1 текстуры
 
-You can view, extract and replace any of the texture inside any of the aforementioned files.
+Вы можете просмотреть, извлечь и заменить любую текстуру внутри любого из вышеупомянутых файлов.
 
-**sh2tex** supports drag & drop, as well as opening supported formats from the command line (so you can associate it with those files).
+**sh2tex** поддерживает перетаскивание, а также открытие поддерживаемых форматов из командной строки (так что вы можете связать его с этими файлами).
 
-Use `Ctrl` + `+`/`-` combination to zoom in and out the selected image.
+Use `Ctrl` + `+`/`-` комбинация для увеличения и уменьшения масштаба выбранного изображения.
 
 Supports dark theme now!
 
